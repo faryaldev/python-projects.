@@ -1,46 +1,36 @@
-# 📝 To-Do List — Python CLI Application
+# 📝 To-Do List (CLI-Based Python Project)
 
-A simple and efficient **command-line To-Do List** app built using Python.  
-This program helps users **add, remove, view, and save daily tasks** — all managed directly from the terminal.  
-It demonstrates core programming concepts like **file handling, modular functions, error handling, and user interaction**.
+A simple yet functional **Command Line Interface (CLI) To-Do List** application built in Python.  
+This program allows users to **add, remove, display, save, load, and clear tasks** with automatic timestamping and persistent storage — a perfect beginner-friendly project to strengthen file handling and modular programming skills.
 
 ---
 
-## 🚀 Features
+## ⚙️ Features
 
-✨ **Add Tasks:**  
-Easily add new tasks with automatic timestamps.  
-
-🗑️ **Remove Tasks:**  
-Delete any task by its task number.  
-
-📜 **Display Tasks:**  
-View all current tasks neatly numbered with their added time.  
-
-💾 **Save Records:**  
-Save your tasks to a local text file (`records.txt`) for future use.  
-
-📂 **Load Previous Records:**  
-Retrieve your previously saved tasks anytime.  
-
-🧹 **Clear Saved Records:**  
-Start fresh by clearing your saved records safely.  
-
-🚪 **Exit Program:**  
-Gracefully exit while keeping your saved data intact.
+- ➕ **Add Tasks** – Add new tasks with automatic date and time stamps.  
+- ❌ **Remove Tasks** – Delete any task by its number in the list.  
+- 📋 **Display Tasks** – View all current tasks stored in memory.  
+- 💾 **Save Records** – Save your session’s tasks to a file (`records.txt`).  
+- 📂 **Load Records** – Load previously saved tasks from the same file.  
+- 🧹 **Clear Records** – Wipe all saved tasks from `records.txt`.  
+- 🚪 **Exit Option** – Cleanly exit the program when done.
 
 ---
 
 ## 🧠 Concepts Used
 
-- **Functions** for modular and reusable code  
-- **Lists** for task storage and manipulation  
-- **File Handling** (`open`, `write`, `read`, `append`)  
-- **Exception Handling** (`try`, `except`, `FileNotFoundError`)  
-- **User Input Validation**  
-- **Datetime Module** for timestamping tasks  
+- Python **Functions** for modular and reusable code.  
+- **File Handling** (`open`, `write`, `read`) for persistent storage.  
+- **Datetime Module** for timestamps on every added task.  
+- **Error Handling** (`try`-`except`) for robust user input management.  
+- **os.path** for automatic path detection to save data inside the same folder.
 
 ---
 
-## 🧩 Example Menu
+## 🖥️ How to Run
 
+1. Clone or download this repository.  
+2. Open the project folder in **VS Code** or any IDE.  
+3. Run the script in your terminal:
+   ```bash
+   python to_do_list.py
